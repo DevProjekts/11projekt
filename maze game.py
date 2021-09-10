@@ -1,18 +1,15 @@
-"""Maze, move from one side to another.
-Excercises
-1. Keep score by counting taps.
-2. Make the maze harder.
-3. Generate the same maze twice.
-"""
+#Maze, move from one side to another.
+#Excercises
+
 
 from random import random
 from turtle import *
 
+#the link to the module https://pypi.org/project/freegames/
 from freegames import line
 
-
+#we are drawing the maze
 def draw():
-    "Draw maze."
     color('black')
     width(5)
 
@@ -25,9 +22,8 @@ def draw():
 
     update()
 
-
+#Draw line and dot for screen tap.
 def tap(x, y):
-    "Draw line and dot for screen tap."
     if abs(x) > 198 or abs(y) > 198:
         up()
     else:
