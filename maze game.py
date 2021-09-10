@@ -1,5 +1,4 @@
 #Maze, move from one side to another.
-#Excercises
 
 
 from random import random
