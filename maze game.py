@@ -21,7 +21,7 @@ def draw():
 
     update()
 
-#Draw line and dot for screen tap.
+#We are drawing line and dot for screen tap.
 def tap(x, y):
     if abs(x) > 198 or abs(y) > 198:
         up()
