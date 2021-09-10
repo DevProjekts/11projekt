@@ -4,10 +4,10 @@
 from random import random
 from turtle import *
 
-#the link to the module https://pypi.org/project/freegames/
+#The link to the module https://pypi.org/project/freegames/
 from freegames import line
 
-#we are drawing the maze
+#We are drawing the maze
 def draw():
     color('black')
     width(5)
